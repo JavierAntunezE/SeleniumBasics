@@ -13,6 +13,7 @@ public class CloseModalPopUp {
 		WebDriver driver;
 		
 		// Crea el navegador
+		//LEVANTA EL NAVEGADOR
 		driver = new ChromeDriver();
 				
 		driver.get("https://the-internet.herokuapp.com/entry_ad");
@@ -34,6 +35,7 @@ public class CloseModalPopUp {
         }
         try { Thread.sleep(1000); } catch (InterruptedException ignored) {}
         driver.quit();
+        System.out.println("Se cierra el navegador");
 	}
 
 }
