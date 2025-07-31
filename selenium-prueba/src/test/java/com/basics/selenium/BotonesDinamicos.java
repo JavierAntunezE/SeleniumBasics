@@ -38,6 +38,7 @@ public class BotonesDinamicos {
             deleteButton.click();
             try { Thread.sleep(500); } catch (InterruptedException e) {}
         }
+        System.out.println("****Prueba GIT****");
 
         driver.quit();
         
