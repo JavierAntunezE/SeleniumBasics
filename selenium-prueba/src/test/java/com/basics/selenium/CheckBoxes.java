@@ -40,6 +40,7 @@ public class CheckBoxes {
         try { Thread.sleep(1000); } catch (InterruptedException ignored) {}
 
         driver.quit();
+        System.out.println("Cierra el driver");
 	}
 
 }
