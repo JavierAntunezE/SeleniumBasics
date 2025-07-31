@@ -37,7 +37,7 @@ public class CheckBoxes {
         }
 
         // Espera breve para ver el resultado (opcional)
-        try { Thread.sleep(1000); } catch (InterruptedException ignored) {}
+        try { Thread.sleep(2000); } catch (InterruptedException ignored) {}
 
         driver.quit();
         System.out.println("Cierra el driver");
