@@ -39,6 +39,7 @@ public class BotonesDinamicos {
             try { Thread.sleep(500); } catch (InterruptedException e) {}
         }
         System.out.println("****Prueba GIT****");
+        System.out.println("****Prueba GIT cambio 2 HOLA EQUIPO QA****");
 
         driver.quit();
         
