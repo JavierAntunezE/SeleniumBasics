@@ -38,7 +38,7 @@ public class DropdownList {
         // select.selectByIndex(2);
         // select.selectByVisibleText("Option 2");
         // select.selectByValue("2");
-        
+        // en este caso se selecciona la opción 2
         select.selectByVisibleText("Option 2");
 
         System.out.println("Opción seleccionada: " + select.getFirstSelectedOption().getText());
@@ -67,6 +67,7 @@ public class DropdownList {
         // Muestra la opción seleccionada
         System.out.println("Opción seleccionada: " + dropdown.getAttribute("value"));
         try { Thread.sleep(1000); } catch (InterruptedException ignored) {}
+        //Se cierra el sistema
         driver.quit();
 	}
 	
